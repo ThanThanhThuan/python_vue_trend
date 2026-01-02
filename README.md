@@ -18,12 +18,19 @@ The application uses a Headless Architecture where the frontend and backend are 
 **3. Technology Stack**
 
 Component	Technology	Purpose
+
 Frontend	Vue.js 3, Vite, Axios	User Interface, API communication, State management.
+
 Backend API	Flask, Flask-Cors	REST API endpoints, routing, and request handling.
+
 Database	MongoDB, PyMongo	Storing historical sales data uploaded by the user.
+
 Data Processing	Pandas, NumPy	Cleaning CSV data and preparing datasets for ML.
+
 Machine Learning	Scikit-Learn	Linear Regression model for predicting future sales.
+
 Visualization	Matplotlib, Seaborn	Generating static charts on the server (rendered as Base64 images).
+
 External API	Pytrends	Unofficial API to fetch real-time search interest data from Google.
 
 **4. Key Features**
