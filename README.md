@@ -16,6 +16,7 @@ The application uses a Headless Architecture where the frontend and backend are 
     Database: MongoDB (NoSQL) for storing unstructured sales records.
 
 **3. Technology Stack**
+
 Component	Technology	Purpose
 Frontend	Vue.js 3, Vite, Axios	User Interface, API communication, State management.
 Backend API	Flask, Flask-Cors	REST API endpoints, routing, and request handling.
