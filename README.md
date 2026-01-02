@@ -2,6 +2,7 @@
 **1. Project Overview**
 
 The E-Commerce Trends Analyzer is a full-stack web application designed to help online retailers make data-driven decisions. It combines external market intelligence (Google Trends) with internal sales data (CSV/Kaggle) to visualize product popularity and forecast future sales using Machine Learning.
+
 **2. Technical Architecture**
 
 The application uses a Headless Architecture where the frontend and backend are decoupled, communicating via a REST API.
@@ -23,6 +24,7 @@ Data Processing	Pandas, NumPy	Cleaning CSV data and preparing datasets for ML.
 Machine Learning	Scikit-Learn	Linear Regression model for predicting future sales.
 Visualization	Matplotlib, Seaborn	Generating static charts on the server (rendered as Base64 images).
 External API	Pytrends	Unofficial API to fetch real-time search interest data from Google.
+
 **4. Key Features**
 A. Real-Time Market Analysis (Google Trends)
 
